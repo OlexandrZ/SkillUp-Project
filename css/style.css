@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p, h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #10242b;
+}
+
+p.grey-text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #5c666a;
+    letter-spacing: 0.15px;
+}
+
+.form {
+    min-height: 634px;
+    background-color: #ecf1f7;
+    padding: 100px 0;
+}
+
+a.contact {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2b3a40;
+    letter-spacing: 0.16px;
+    text-decoration: underline #2b3a40;
+}
+
+.input-field {
+    height: 54px;
+    margin-bottom: 28px;
+    margin-top: 17px;
+}
+
+.input-area {
+    min-height: 124px;
+    height: 124px;
+    padding-bottom: 35px;
+}
+
+::-moz-placeholder { 
+    opacity: 1;
+}
+
+:placeholder-shown {
+    padding-left: 28px;
+}
+
+.input-field, .input-area, ::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0b0f12;
+    padding: 20px 28px;
+}
+
+.input-area, .input-field {
+    border: 2px solid #e3e7ea;
+}
+
+.ask {
+    width: 151px;
+    height: 48px;
+    background-color: #67b930;
+    margin-top: 35px;
+    color: #fff;
+}

@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <section class="form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center">
+                    <h2 class="text-capitalize ask-question">Ask Your Questions</h2>
+                    <p class="grey-text">If your question has not been answered, you can submit your own by using the form below.
+                    Alternatively, feel free to <a href="#" class="contact">Contact Us</a> and one of our staff will be happy
+                    to assist you.</p>
+                </div>
+            </div>
+            <div class="row flex-wrap input">
+                <div class="col-12 col-md-6">
+                    <input type="text" placeholder="your name" class="w-100 text-capitalize input-field rounded">
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="email" placeholder="Your Email" name="" id="" class="w-100 input-field rounded">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Questions"
+                        class="w-100 input-area rounded"></textarea>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <input type="submit" value="ask question" class="ask text-center text-uppercase rounded border-0">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
