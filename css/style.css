@@ -13,7 +13,9 @@ h2 {
     line-height: 55px;
     color: #10242b;
 }
-
+p {
+    font-size: 14px;
+}
 p.grey-text {
     font-size: 15px;
     line-height: 30px;
@@ -26,7 +28,9 @@ p.grey-text {
     background-color: #ecf1f7;
     padding: 90px 0 100px;
 }
-
+a {
+    font-size: 14px;
+}
 a.contact {
     font-size: 16px;
     font-weight: 600;
@@ -51,8 +55,8 @@ a.contact {
     opacity: 1;
 }
 
-:placeholder-shown {
-    padding-left: 28px;
+/*:placeholder-shown {
+    padding-left: 28px;*/
 }
 
 .input-field, .input-area, ::placeholder {
