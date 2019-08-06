@@ -55,8 +55,8 @@ a.contact {
     opacity: 1;
 }
 
-/*:placeholder-shown {
-    padding-left: 28px;*/
+:placeholder-shown {
+    padding-left: 28px;
 }
 
 .input-field, .input-area, ::placeholder {
